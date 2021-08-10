@@ -142,13 +142,13 @@ module.exports = configure((ctx) => ({
     },
 
     manifest: {
-      name: 'Quasar App',
-      short_name: 'Quasar App',
-      description: 'A Quasar Framework app',
+      name: 'DiceRoller',
+      short_name: 'DiceRoller',
+      description: 'A small and simple app to roll dices',
       display: 'standalone',
       orientation: 'portrait',
-      background_color: '#ffffff',
-      theme_color: '#027be3',
+      background_color: '#000000',
+      theme_color: '#22162e',
       icons: [
         {
           src: 'icons/icon-128x128.png',

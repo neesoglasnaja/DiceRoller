@@ -1,8 +1,8 @@
 {
   "name": "dicer",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "A small and simple app to roll dices",
+  "productName": "DiceRoller",
   "author": "Sasha Shinkevich <neesa.web@gmail.com>",
   "private": true,
   "scripts": {
