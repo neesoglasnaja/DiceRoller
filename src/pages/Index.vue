@@ -50,7 +50,8 @@ export default defineComponent({
     roll() {
       const roll = new DiceRoll(`${this.counter}d6`);
       this.dices = roll.rolls[0].rolls.map((result) => result.value).sort().reverse();
-      if ('vibrate' in navigator) {
+      if (navigator && navigator.vibrate) {
+        alert(navigator.vibrate);
         navigator.vibrate(200);
       }
     },
